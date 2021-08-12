@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Protik's porfolio Website</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Protik Barua.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="about" id="About">
+        <div class="container grid">
+            <div class="img-section">
+                <h2>It's Me</h2>
+                <img src="image/protik.jpeg" alt="" class="img">
+            </div>
+            <div class="bio">
+                <h2>About Me</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Skills Section -->
+        <div class="skill" id="Skills">
+            <h1>My Skills</h1>
+            <div class="container grid grid-auto">
+                <div>
+                    <img class="skill-logo" src="image/react.png" alt="" style="object-fit:cover">
+                    <p>React</p>
+                </div>
+                <div>
+                    <img class="skill-logo" src="image/android.jpg" alt="">
+                    <p>Android Studio</p>
+                </div>
+                <div>
+                    <img class="skill-logo" src="image/java.png" alt="">
+                    <p>Java</p>
+                </div>
+                <div>
+                    <img class="skill-logo" src="image/python.jpg" alt="">
+                    <p>Python</p>
+                </div>
+                <div>
+                    <img class="skill-logo" src="image/fluid.png" alt="">
+                    <p>FluidSim</p>
+                </div>
+                <div>
+                    <img style="object-fit: fill;" class="skill-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV8AAACPCAMAAABqIigoAAABJlBMVEX///8bK2MxTLAdLWj/dwAdP6y/xeMAE13Mz9n4+fsyTrQWKGYhNHhETnwtRqMXKGEAFl6/ws8jN34tO24OI2Sss9oAHVw5U7ONkqgON6oADFeHjKXU1t8XPKsAAFQAFlp6gJvY3O4AGlsqR64ACFbp6u4lRK1NV39udZT/bADk5etaYodJU3zDxtKprb7/dABtfcNEW7axtcTo6vWeoraEkcv/k0sAAFgAJ2ysZGdkbI52hcagqtbN0ukvPG5bbr23vuD/6t7/4Mz/9u//v5r/hzH/mVf/0bX/soX/omj/18D/yKnfpo24WCtTMEzQZiZ+SU7FYittQ0+qW01HP3R1WJBTUp/HalCAWodhVJjabjujYnDydBedYHhGT6WSntEALKdUaLstO0HfAAAPD0lEQVR4nO2da4PaxhWG0XrXICtUUFgtFrsSFjetWGSbxXGDY7yOm17Se93USZvG8f//ExV3kN4zmhk0lnfN+xF0fTSaOXPOmaNC4aCDDjrooIMOOujT1pvX33zzJu+LuKt689tvH19GOv7d7/O+lLuoP1xePj6e6/Hl8Xd5X81d0+vjy+ONHl/+Me8Lult6vWq7K11+mfcl3SW9eRzDGwE+tODs9GUCbwT4MMplpe8uk3ijTjjvy7oz+hY036gB/ynv67ojegOb7/Hjz2qI6w6rqvRn2HwjwPNTDoO8b/1jaPy8WFGkzl8w3uPjv87OWXT8vG9evarP7ynTb/5G8f27Md/AbuR9+8o1qefI914t79tXrrKhkO8/KL7/XJ61rud9/6o15/vFr9XoLcX3X9Gfnw9f7VcPlKj9PYH3p3b0r/YZ8T1Sox7B920v+vPAd2+1v8J8//3gwDcTnUG872bN98A3A7V/QHwX/x34ZqAe6CF+bN96vl2/BdVMbKmYLwC8xHur+RbGjoWkJTZUzfeot2uk/efnJd7bzbdQNrWkzOR8VDnfo/bRf39a0/2+92D1++3mW618Knwjwu0f//f23buvfvi51978KshXPy+NwkijUvApPBTdEuP79IzWU8CMsflsj7PdrR+02712u73zGz/fbrXRrzidout6nusWO447aAzzhow6CJpv72vGoW5OEnh7z5gnP+Vo1Zx8u+NysWjFbsawipV+2E3dWaEmhlD7ffiSPNL1BXjlX7HO/QTsIce3OnA8NJLMGHtOf8SFQolaoINg9b9t8lZf9ADfJ/SZ9adgBym+oWmDVrKF2C028mrEonxPTokDdVFjZPQn3bM22EGCb1WrEE13S57dyodwU7T9PiUOdJrsfaPu5Jo6r86JN41vt++k053Jcpp5jHUNQb5HFwSyJ4AX3T1w403hGzrMniFGOIdeQpzvI3wgxOYhsW2h8IEXL5OvPrC56c7kVQahFCV5CfM9uQ+Poz9MoqGtsydcQ1sa30BD1jtTzlCSk6zE+d7A4zxC1hl10veorxbmO+zw9bzbDbglR0leCvmStvINj92bynfEObCxb0y1xPliA+1lgtnJe+KUj0BXIs535IjSjXqH8z1IySkrvvfjrzw5devy970MvjJ43RzygNTxpWyqp9ymA4PvUAKvUd6LlJxU8SVNMwHTgeYb2MJ9r6Z18kjEVMT3ITWN/lpkbKP46hoTr2nUrboZ38T+2KbvXGr4nrwgTvdSaGyj+A5ou9e0bLfWn7T8vuba2/7Ken9PUnJSwrf9gTjbtYDhS/MNyVmbWdQa56uN9VLTKK4Im24+/h0lfHvUvXB7HVh8uyRet1aNnbA6dRd/OTn5gFXwzWxsw3wHhEvHdJD9NZ5PQ6yJKJiMpIDvBTW2vRcd2yDfaofAa5fgWQPNiHrlvOJw2fPtUWPbfeGxDfKtYdvBdKnJmT41PrpbZ63M+ZIOeBSfk+A7KuLm6+DWO5NutQSIZKvM+Z4Q/nd+jzqbL9F8i2PGTQqkQuh6t6tLdybR3rGds+ZLOs1ekWNb+wKrh/hWsfFg7G3dBtWGX9Ysz3UrrmdpZb9RFZrvdUfNK9Ob7zz1x6XVFWfM94IKaNIu3/aL60dQX6P83z42Hvab+wahX3MqlrWZ85lm3ao4mj/ibMrhleOudjdNw7O9yaLLz5Zvjwq4scY2KuK0OOQu3wAbD3t0sMHINxy3Dnsds17ptDieXKPiJvav29rM5M6Ur9zY1j7DOyG+DQ83X6nJmV4aTwybYLt+dM4k5eBDw4V7mnY5yJYvObYdMce2C9xnI754dLMkVtCG/alte2y2y6PbrLGz0KLjKEanOs6Qr8TYtuyByUPG+J5jt2+Hts1IBQLhJZue/elT/EYt5U6F8vuYfC+ogNCzFK8O0a0AvmN4M6bJAkmJGCmhvCviIF2tzt5TOL+a5NujAkI3qfM2HGgGfPu4e5CK+xCWHpaF7T+9JvCQ9uN7cUaYMhzhzBO4a5Kvjt9FWy5syXbSx+Qm16REKqe03gz5/kKObeni5XsOm5wpuXwAdzaUUOzZFzrCXnxvboi74MmEuuDkG0JDyBjw0EyqKxQjNZPRUZkgqyxfykZMG9vmesjJFyXTRoMP03xiaCL0dnfiPjidx7jLii+hUy6fJC9fZOxoWlHCOpvrnPAkE1TiNkRTrnfIki9nqg4vX3xDjnRkbfd5mYbleZ5lUK0ydh46TPXR+Oqc8SBOvviOzLoA0V1t+nPD67hXfmMcho3JJii6q1g/hDLTV1dkeRaj88iML2+qDidfwnygbP906Qu+RtGbhFtunGoNojN3bGCdGtxMW4seVMOv2dQDyIrvC95oPCffIVoMqRl7hC6jAdO0nEE1fn6cYFHc3gzbMlErn66Gg6DhYsIZ8T3lDghx8h3BW9on+BM4rgEXDcB1wzsBVLhF9Ay2r0ZvQidHNnwFUnU4+eImI22ezdQfE6nx6O3fPhPcINok5skroUliJnyvBXIdOPniCZerJK8MJVlsvymEpylBLiv/b0Ii0XhOvnjEVsMX9UXbIyn2NCUdpcr48s3csuCrJPMJBaLMTV0MHXZVwJRRx1cgkZqTL54eq+Gro7nzJguoBE3FSjz9TSlf/oSST5AvjEQV16YG7n6fJw+jkC+/gfbJ9A96EATnQdDVsa9jE0b1UfNGjjyVfLnzJTn5omvNZnwLRmO/X6s4TqfTsTsdx3HgVGaTZQHjrB64EqV8U+LGonzxS7mX/RvpfFy2bdczEgsKktoESqD1i+IoSvlm7D/D8wu56NtSQVPrUJU5GABxmosLbkMtX87lLHnNj4OJEy8pw8e3hJI4zWRZM+V8C694eghOvvCu5P07uu8IhifXfOGTho481Xy5XMCcfPFbCQJjXBoR3i0evnAkqKMsItV8udw8nHx1OKhrltgFLeWLLw/f8IWWjIVC+Jmt7yZj5BzzZN74EB7iZeJD+pVM8GzNF850PDTQZpbfR1eKSp8n8/LFK4dk4ptl4b5hhy+MPENDMTO+v9xQ95I+T+bliycYEgZwXwrvhi980Gh6kWF+KlX4iKOeBi9fWC1TIr+kgTtyfr4wNxBO1LPjSyZX49JzMnxxxo1wfhSR5SrCFw0EivkendDFJlPmybx8ifRqYmEhKSJ0Nr9105gVQCYmyyl81fYPESZcWqqAqx/J8PVhvyk4gytRaTum1zHLk1az2ZqUYXIlm6/i/jf6r0d2wex5Mjdf3AFrFSbPuIj1y3XnKtwslAuQAz1lfFNqP8zXt1B1CVLmydx8iaQOEDeghY9hOpOdhUJd1Mg39hniCx1N2a7PImtGsefJ3HyJtic0Rca+Ay+WHcnmC+cXsJvKeH0hXR+YNU/m5zvCHUQid5QhyKYSX+XG5gsNcaX+ndX62B5pKzGK9vHzxXFbocJxV2BsshOmFZtviGbXSv2TK76MitV0Jjs/XyLGKVLaDFgG5jSxFZvvEHpKbeAIyXz9PLkCmTFPFuBL5CWlleabrDsQtEYGjPxsvvgqXDDMZl9fgy5KS6b0CPClrCuzzvKi+fb63dWB4VVJdt9svgVoQiMHsIr6O2QXTM2TRfhSk1uzRs+SB+6mA9EBGuCBS+FLpEclT62AL7mInqwfJcKXLG9kaEQLDqaze1zF1nXQdYq3X+5UARXtlyxwRHXBQnyJEgXRZXdgpsmigNS6AgdKfBLuf4n8KNNI3Ijo9wO46p9RFR2olB4hvoUWGXroJEsJDKcri7mzHH1AYg64Yejp2EpwwHHnRBmwFpzM7F2/j6joUCBSesT46uQKH61ut7btCD2cbgqBrhoX8t1W4i92CF+SLb7Y06S5re2jDGucWcKi9SfJGl14nizGl7lu0nJqzep5txuURs3y7kddlsXBYRZbrIDXGJ9hiy/lhPPKq230UZkoYJ5F/dQbCjCaJwvyZa/7NS3XdpyO7SZe4YWNjH1w2zU0uhOiBth2AhRRx2pWtaQRjsJG3yM/e5JF/V+qlAmcJ4vyJW+OrYUbiPDBudp4VhlUD0aTDpV2ss2XWj80e8Cem3y42xtkwJcRLUrOk4X5StVXjuzceTdLFNYwPXuWOGm7dEmHnQS+ZEkjXmVSH5yOFiW/VCTMV3LpuunNDkT44Di0w3dMNuDUy5DJL0m89bSrMjFPFudLjUApWhRCou2PFO0moArV59iWzPcvkt9nYHzKLJ7SI8FXEvC8SmUo24B3+ZZkw9AZfV+E8fHCWEoPb32NHTVkbm/hicR1DtIVC1TTE52Ui7jH4ouDxNfI7CKncd3dBozrw7xk85VrwZWZn0c2ASLuB5rKVDeKZDP4EsXgCmJfh9y1ggm+F2y+har4B4isRSmzsVzthmI8SCeUnb2Rk7if9O+/oegE3YBjhU3gJo/S+BYCPP8kZdnNpYPCT+2CYQZJ3IEepBtpzDwKwJcKsL0HE1/W52O3xjgirH+dypdZnDChutPaHMdPacHW1TT5Y9LPFqQt3igOwAbJTKrN9yHJL1tAzxjNd8vTQz2Gs3S+hdKUqDYSl+EMdmLEuHTASpUBmiOCpQhdXItjKbNTRUUrkpH8NV/6lUd4L1hBmw8rwNQx5zPp1O+bhhbHTMpy+vF3cujRBV6cJp6DJztOZiK8WwuguyMZaV7xZcQmUBYq/X3TmT4sughyGNS5+EajlWYzF6qYruOD8KfecnAdmGJtZicgvjBFZ6jhB2zNvxcB3UnFeEe+4ks7dmEKFPkFw4UW8bg2+RDuX3B+X3rou4mPdy9hWa59RVWh7vrFBJq6XVs4g03PSgqHqcPkAzbdyuKLwFUHHMaLVyRdfx/9Pq3T5Aj3lLF5pJczo6P9jPE/9/fR9WpLs4veJrN0lmnq2rbmj1h9VDe8Wu5lznbwbNdf2WBNKCLPojpx7a3DFO2rcHnN5y10mFasAa/7hxNayHPO2HymeYtv0//z9Q9rWKWwNZgaMy+YU5xlmoZDjqUvemnsD6aaoU0HrVD+A4f6+bi1PMxWeXtebeyzjy0BvrdYB75qdeCrVge+anXgq1YHvmq14PsgB30+fO99kYfufT58c9Pd5zup58lXYHXFLdXweY54O3tWiLoNCh27mJOew0973DXppbyUz4ehDzrooIMOusP6P1ppBpD1RUdIAAAAAElFTkSuQmCC" alt="">
+                    <p>KiCad</p>
+                </div>
+            </div>
+        </div>
+    <!-- portfolio -->
+        <div class="portfolio" id="portfolio">
+            <h1>Portfolio</h1>
+            <div class="container grid grid-portfolio">
+                <div class="card">
+                    <img src="image/project1.jpeg" alt="">
+                    <h3>Lorem epsom</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <img src="image/project2.jpeg" alt="">
+                    <h3>Lorem epsom</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <img src="image/project6.jpeg" alt="">
+                    <h3>Lorem epsom</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    <!-- Contact -->
+        <div class="contact container" id="Contact">
+            <h1>Contact</h1>
+            <div class="card grid-contact">
+                <div class="form-control">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="message" placeholder="Message" required>
+                </div>
+                <div class="form-control btn-primary">
+                    <input class="btn" type="submit" value="Send">
+                </div>
+            </div>
+            <div class="icon-contact">
+                <i style="color: rgb(9, 107, 236);" class="fab fa-facebook-square fa-3x"></i>
+                <i style="color: rgb(9, 107, 236);" class="fab fa-linkedin fa-3x"></i>
+                <i style="color: rgb(9, 107, 236);" class="fab fa-twitter-square fa-3x"></i>
+                <i  class="fab fa-github-square fa-3x"></i>
+            </div>
+        </div>
+
+    <!-- Footer -->
+        <div class="footer conatiner">
+            <p> <i class="far fa-copyright"></i>Protik Barua</p>
+            <a href="#">Developer</a>
+        </div>
+</body>
+</html>
