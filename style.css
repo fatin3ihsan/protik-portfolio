@@ -264,7 +264,19 @@ img{
 /* Media querry */
 /* Tablets and under */
 @media (max-width:768px){
-
+    .grid,
+    .about .grid,
+    .skill .grid-auto,
+    .portfolio .grid-portfolio,
+    .grid-contact{
+        grid-template-columns: 1fr;
+    }
+    .about{
+        height: auto;
+    }
+    .skill{
+        height: auto;
+    }
 }
 
 
@@ -274,6 +286,8 @@ img{
 
     .navbar{
         height: 110px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .navbar .flex{
         flex-direction: column;
@@ -282,6 +296,8 @@ img{
     .navbar .flex ul{
         background-color: rgba(0, 0, 0, 0.2);
         padding:10px 0;
+
+        
         
     }
 }
