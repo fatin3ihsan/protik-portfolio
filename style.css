@@ -79,6 +79,11 @@ img{
 }
 .about .img-section{
     z-index: 100;
+    animation: slideInFromLeft 1s ease-in;
+}
+
+.about .bio{
+    animation: slideInFromRight 1s ease-in;
 }
 .about::before,
 .about::after{
@@ -99,6 +104,7 @@ img{
 .skill{
     padding-top: 100px;
     height: 600px;
+    animation: slideInFromBottom 1s ease-in;
 
 }
 .skill .grid-auto{
@@ -220,7 +226,7 @@ img{
     position: relative;
 }
 .footer p,a{
-    padding: 0;
+    padding:10px 0;
     margin: 0;
     color: #fff;
 }
@@ -260,7 +266,33 @@ img{
     color: rgba(0, 0, 0, 0.2);
 
 }
+/* animation */
+@keyframes slideInFromLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
 
+@keyframes slideInFromRight {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 /* Media querry */
 /* Tablets and under */
 @media (max-width:768px){
